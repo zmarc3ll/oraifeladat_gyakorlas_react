@@ -10,14 +10,19 @@ export default class Bemutatkozas extends Component {
             <br />
             <h2>Jelenlegi tagjaink</h2>
             <br />
-            <img src={'profile.svg'} alt="Fotó a főnökről" title="Fotó a főnökről" />    
+                
             
            <p id="valasztas">
-            * Erdős Ildikó<br />
-            * Jónás Viola<br />
-            * Kató Anna<br />
-            * Pintér Koppány<br />
-            * Sas Gizi<br />
+            * Erdős Ildikó <img src={'profile.svg'} alt="Fotó a főnökről" title="Fotó a főnökről" /><br />
+            <hr />  
+            * Jónás Viola <img src={'profile.svg'} alt="Fotó a főnökről" title="Fotó a főnökről" /><br />
+            <hr />
+            * Kató Anna <img src={'profile.svg'} alt="Fotó a főnökről" title="Fotó a főnökről" /><br />
+            <hr />
+            * Pintér Koppány <img src={'profile.svg'} alt="Fotó a főnökről" title="Fotó a főnökről" /><br />
+            <hr />
+            * Sas Gizi <img src={'profile.svg'} alt="Fotó a főnökről" title="Fotó a főnökről" /><br />
+            <hr />
             </p>
         </>
     }
