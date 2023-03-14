@@ -71,3 +71,11 @@ footer {
   text-align: center;
 }
 
+h2 {
+  text-align: center
+}
+
+#valasztas {
+  text-align: center;
+  font-style: italic;
+}
