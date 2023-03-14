@@ -4,7 +4,7 @@ import Footer from './components/footer';
 import Navbar from './components/navbar';
 import Bemutatkozas from './components/pages/bemutatkozas';
 import Main from './components/pages/main';
-import Rolunk from './components/pages/rolunk';
+import Kapcsolat from './components/pages/kapcsolat';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Main/>}></Route>
       <Route path='/bemutatkozas' element={<Bemutatkozas/>}></Route>
-      <Route path='/rolunk' element={<Rolunk/>}></Route>
+      <Route path='/kapcsolat' element={<Kapcsolat/>}></Route>
     </Routes>
 
     <Footer></Footer>
