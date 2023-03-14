@@ -3,7 +3,7 @@ import { Component } from "react";
 export default class Rolunk extends Component {
 
     handleSubmit(event: { preventDefault: () => void; }) {
-        alert('Sikeres beküldés! ');
+        alert('Sikeres beküldés, köszönjük! ');
         event.preventDefault();
       }
     render() {
